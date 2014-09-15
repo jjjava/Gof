@@ -1,0 +1,6 @@
+Creational patterns are ones that create objects for you, rather than having you instantiate objects directly. 
+This gives your program more flexibility in deciding which objects need to be created for a given case.
+
+Padrões de criação são aqueles que criam objetos para você, ao invés de ter que instanciar os objetos diretamente. 
+Isto dá a seu programa mais flexibilidade para decidir quais objetos precisam ser criadas para um determinado caso.
+
