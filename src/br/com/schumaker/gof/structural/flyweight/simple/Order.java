@@ -1,4 +1,4 @@
-package br.com.schumaker.gof.structural.flyweight.old;
+package br.com.schumaker.gof.structural.flyweight.simple;
 
 /**
  *
