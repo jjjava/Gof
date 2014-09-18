@@ -11,9 +11,11 @@ public class OriginalClass {
 
     void doSomething() {
         val = 1.0;
+        System.out.println("Value: " + val);
     }
 
     void doSomethingElse() {
         val = 2.0;
+        System.out.println("Value: " + val);
     }
 }

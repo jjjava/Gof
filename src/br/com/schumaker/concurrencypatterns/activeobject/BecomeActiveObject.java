@@ -38,8 +38,7 @@ public class BecomeActiveObject {
     public void stop() {
         if (dispatchQueue.size() == 0) {
             isRunning = false;
-        }
-        else{
+        } else {
             System.out.println("Queue not empty");
         }
     }
@@ -51,7 +50,7 @@ public class BecomeActiveObject {
                         @Override
                         public void run() {
                             val = 1.0;
-                            System.out.println("Value: " + val);
+                            System.out.println("Value: " + val + " Queue: " + dispatchQueue.size());
                         }
                     }
             );
@@ -66,7 +65,7 @@ public class BecomeActiveObject {
                         @Override
                         public void run() {
                             val = 2.0;
-                            System.out.println("Value: " + val);
+                            System.out.println("Value: " + val + " Queue: " + dispatchQueue.size());
                         }
                     }
             );

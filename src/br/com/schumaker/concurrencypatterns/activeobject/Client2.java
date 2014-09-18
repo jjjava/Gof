@@ -5,16 +5,17 @@ package br.com.schumaker.concurrencypatterns.activeobject;
  * @version 1.0.0
  * @since 18/09/2014
  */
-public class Client {
+public class Client2 {
 
     public static void main(String[] args) {
-        OriginalClass originalClass = new OriginalClass();
+        BecomeActiveObject activeObject = new BecomeActiveObject();
+        activeObject.start();
         for (int k = 0; k < 1000000; k++) {
-            originalClass.doSomething();
+            activeObject.doSomething();
         }
-
+        
         for (int k = 0; k < 1000000; k++) {
-            originalClass.doSomethingElse();
+            activeObject.doSomethingElse();
         }
     }
 }
