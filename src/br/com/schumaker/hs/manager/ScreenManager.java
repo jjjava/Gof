@@ -9,7 +9,7 @@ import java.util.ArrayList;
 /**
  *
  * @author Hudson Schumaker
- * @version 1.2.3
+ * @version 1.17.5
  * @since 2013 Java 7 port
  */
 public class ScreenManager {

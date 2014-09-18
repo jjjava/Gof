@@ -14,7 +14,7 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 /**
  *
  * @author Hudson Schumaker
- * @version 1.0.4
+ * @version 1.3.4
  * @since 2013 Java 6 port
  */
 public class SoundManager implements Runnable {

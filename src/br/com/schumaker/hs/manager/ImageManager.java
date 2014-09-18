@@ -9,7 +9,7 @@ import javax.imageio.ImageIO;
 /**
  *
  * @author Hudson Schumaker
- * @version 2.4.8
+ * @version 2.4.9
  * @since 2010
  */
 public class ImageManager {
