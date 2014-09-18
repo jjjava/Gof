@@ -13,15 +13,15 @@ public class Client {
         final Texture IMAGE3 = new ProxyTexture("HiRes_50MB_Texture");
 
         IMAGE1.renderTexture(); // loading necessary
-        IMAGE1.renderTexture(); // loading unnecessary
-        IMAGE1.renderTexture(); // loading unnecessary
+        IMAGE3.renderTexture(); // loading necessary
         IMAGE1.renderTexture(); // loading unnecessary
         IMAGE2.renderTexture(); // loading necessary
+        IMAGE1.renderTexture(); // loading unnecessary
+        IMAGE1.renderTexture(); // loading unnecessary
         IMAGE2.renderTexture(); // loading unnecessary
         IMAGE1.renderTexture(); // loading unnecessary
-
-        IMAGE3.renderTexture(); // loading necessary
         IMAGE3.renderTexture(); // loading unnecessary
         IMAGE3.renderTexture(); // loading unnecessary
+        IMAGE1.renderTexture(); // loading unnecessary
     }
 }
