@@ -3,7 +3,7 @@ package br.com.schumaker.gof.creational.singleton;
 /**
  * @author Hudson Schumaker
  * @version 1.0.0
- * @since 10/09/2014
+ * @since 18/09/2014
  */
 public class LazySingleton2 {
 
