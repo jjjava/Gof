@@ -1,0 +1,3 @@
+Purpose: Avoid null references by providing a default object.
+
+Objetivo: Previne referências nulas provendo um objeto padrão.
