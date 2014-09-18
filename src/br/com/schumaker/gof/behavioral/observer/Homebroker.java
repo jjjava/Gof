@@ -15,7 +15,7 @@ public class Homebroker implements ShareObserver {
 
     @Override
     public void notifyChange(Share share) {
-        System.out.println(name + " notified.");
+        System.out.print(name + " notified. ");
         System.out.println(share.getCode() + " $" + share.getPrice());
     }
 }
