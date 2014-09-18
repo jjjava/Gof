@@ -15,7 +15,7 @@ public class Theme {
     private String name;
     private Color backgroundColor;
     private Color fontColor;
-    private static final Map< String, Theme> themes = new HashMap<>();
+    private static final Map<String, Theme> themes = new HashMap<>();
     public static final String SKY = "Sky";
     public static final String FIRE = "Fire";
 
