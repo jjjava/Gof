@@ -1,4 +1,4 @@
-package br.com.schumaker.nogof.creational.pool;
+package br.com.schumaker.nogof.creational.objectpool;
 
 import java.util.ArrayList;
 
