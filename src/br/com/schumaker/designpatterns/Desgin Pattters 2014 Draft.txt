@@ -29,7 +29,12 @@ Hudson Schumaker - Desgin Pattners Quick Reference Guide 2014
 		-Double-Checked Locking
 		
 -Chapter I
-	-OO
+	[]OO
+	-Classes
+	-Methods
+	-Polymorphism
+	-Inheritance
+	-Interface
 	
 -Chapter II
 	[]Singleton
@@ -108,8 +113,9 @@ Hudson Schumaker - Desgin Pattners Quick Reference Guide 2014
 -Bibliografy
     []Books
         -SCJA
-        -Javaâ„¢ How to Program, Sixth Edition
-	-SCJP Sun Certified Programmer for Java 5 Study Guide (Exam 310-055)
+		-Java™ How to Program, Sixth Edition
+		-SCJP Sun Certified Programmer for Java 5 Study Guide (Exam 310-055)
+    
     []Links
         http://en.wikipedia.org/wiki/Concurrency_pattern
         http://en.wikipedia.org/wiki/Design_Patterns
