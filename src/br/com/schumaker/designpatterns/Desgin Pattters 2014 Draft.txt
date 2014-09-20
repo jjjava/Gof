@@ -113,7 +113,7 @@ Hudson Schumaker - Desgin Pattners Quick Reference Guide 2014
 -Bibliografy
     []Books
         -SCJA
-		-Java™ How to Program, Sixth Edition
+		-Javaâ„¢ How to Program, Sixth Edition
 		-SCJP Sun Certified Programmer for Java 5 Study Guide (Exam 310-055)
     
     []Links
@@ -122,3 +122,4 @@ Hudson Schumaker - Desgin Pattners Quick Reference Guide 2014
         http://en.wikipedia.org/wiki/Behavioral_pattern
         http://en.wikipedia.org/wiki/Creational_pattern
         http://en.wikipedia.org/wiki/Structural_pattern
+	http://sourcemaking.com/
