@@ -14,8 +14,10 @@ public class LazySingleton3 {
 
     public static LazySingleton3 getInstance() {
         if (instance == null) {
-            synchronized (getInstance()) {
-                instance = new LazySingleton3();
+            synchronized (LazySingleton3.class) {
+                if (instance == null) {
+                    instance = new LazySingleton3();
+                }
             }
         }
         return instance;
