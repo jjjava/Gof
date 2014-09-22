@@ -1,19 +1,19 @@
 -Chapter I
-	In this frist chapter, we will remember the object-oriented features.
+	Nesse primeiro capitulo iremos fazer uma revis√£o dos conceitos de programa√ß√£o orientada a objetos.
 	
 	{}Classes
 		-Simple Class
-			Classe: Uma classe È o agrupamento de objetos com a mesma estrutura de dados (definida pelos atributos ou propriedades) 
-					e comportamento (operaÁıes ou metodos), ou seja, classe s„o as descriÁıes dos objetos! 
+			Classe: Uma classe √© o agrupamento de objetos com a mesma estrutura de dados (definida pelos atributos ou propriedades) 
+			e comportamento (opera√ß√µes ou metodos), ou seja, classe s√£o as descri√ß√µes dos objetos. 
 		
 		-Abstract Class
 		
 		
-	{]Methods
+	{]Metodos
 	
-	{}Inheritance
+	{}Heran√ßa
 	
-	{}Polymorfism
+	{}Polimorfismo
 	
 	{}Interface
 	

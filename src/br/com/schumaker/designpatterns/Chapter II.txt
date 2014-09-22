@@ -1,44 +1,45 @@
 Chapter II
-	In this chapter we will see the frist design pattern Singleton.
-	Singleton:
+
+Neste capítulo vamos ver o nosso primeiro padrão de projeto o Singleton.
+
+Singleton:
+Em engenharia de software, o padrão singleton é um padrão de projeto que restringe a instanciação de uma classe
+para um objeto. Isso é útil quando exatamente um objeto é necessário para coordenar as ações de todo o sistema.
+Encapsulamento "inicialização just-in-time" ou "inicialização no primeiro uso". 
+
+Objetivo: 
+Permitir a criação de uma única instância de uma classe e fornecer uma maneira de recuperá-lo.
+
+UML:
+//diagrama
+
+Codigo:
+Vamos ver o codigo de algumas implementações Eager e Lazy.
+
+Eager Singleton primeira implementação:
+
+//code
+
+Comentario:
+//
+
+Eager Simgleton segunda implementação
 	
-	In software engineering, the singleton pattern is a design pattern that restricts the instantiation of a class to one object. 
-	This is useful when exactly one object is needed to coordinate actions across the system. 
-	The concept is sometimes generalized to systems that operate more efficiently when only one object exists, or that restrict the 
-	instantiation to a certain number of objects. The term comes from the mathematical concept of a singleton.
-	
-	Purpose: Allow the creation of a single instance of a class and provide a way to retrieve it.
-		
-	Singleton Eager example 1:
-	
-			public class EagerSingleton {
+//code
 
-				private static final EagerSingleton INSTANCE = new EagerSingleton();
+Comentario:
+//Classe privada Holder...
 
-				private EagerSingleton() {
-				}
+Lazy Singleton primeira implementação:
 
-				public static EagerSingleton getInstance() {
-					return INSTANCE;
-				}
-			}
-	description ...
-	
-	Singleton Eager example 2:
-	
-			public class EagerSingleton2 {
+//code
 
-				private static class EagerSingleton2Holder {
+Comentario:
+//Metodo getInstance sincronizado...
 
-					private static final EagerSingleton2 INSTANCE = new EagerSingleton2();
-				}
+Lazy Singleton segunda implementação:
 
-				private EagerSingleton2() {
-				}
+//code
 
-				public static EagerSingleton2 getInstance() {
-					return EagerSingleton2Holder.INSTANCE;
-				}
-			}
-	description ...
-	
+Comentario:
+//Dupla trava de verificação...
