@@ -1,0 +1,3 @@
+This project is a self explain of design patterns.
+
+Esse é um projeto auto-explicativo sobre padrões de projeto.

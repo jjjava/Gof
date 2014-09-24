@@ -1,0 +1,3 @@
+Purpose: Provides the ability to restore an object to its previous state (undo via rollback).
+
+Objetivo: Fornece a capacidade de restaurar um objeto ao seu estado anterior (desfazer via rollback).

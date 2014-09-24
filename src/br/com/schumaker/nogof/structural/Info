@@ -1,0 +1,5 @@
+These concern class and object composition.
+They use inheritance to compose interfaces and define ways to compose objects to obtain new functionality.
+
+Estes dizem respeito a classe e composição de objetos. 
+Eles usam herança para compor interfaces e definir formas de compor objetos para obter novas funcionalidades.

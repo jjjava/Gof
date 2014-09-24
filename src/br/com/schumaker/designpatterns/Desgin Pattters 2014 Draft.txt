@@ -1,0 +1,125 @@
+Hudson Schumaker - Desgin Pattners Quick Reference Guide 2014
+
+-Intro
+	Type of pattners
+		-Creational 
+		-Structural
+		-Behavioral
+	Gof
+		[]Creational
+			-Singleton
+			-AbstractFactoy
+		[]Structural
+			-Flyweight
+		[]Behavioral
+			-Command
+			-Memento
+			-Visitor
+			-Observer
+	No Gof
+		[]Creational
+			-Multion
+			-Object Pool
+		[]Structural
+		[]Behavioral
+			-Null Object
+		
+	Concurrency patterns
+		-Active Object
+		-Double-Checked Locking
+		
+-Chapter I
+	[]OO
+	-Classes
+	-Methods
+	-Polymorphism
+	-Inheritance
+	-Interface
+	
+-Chapter II
+	[]Singleton
+	-Description
+	{}Purpose: Allow the creation of a single instance of a class and provide a way to retrieve it.	
+	
+-Chapter III 
+	[]AbstractFactory
+	-Description
+	{}Purpose: Encapsulating the choice of concrete classes to be used in the creation of objects from different families.
+
+-Chapter IV
+	[]Memento
+	-Description
+	{}Purpose: Provides the ability to restore an object to its previous state (undo via rollback).
+	
+-Chapter V
+	[]Visitor
+	-Description
+	{}Purpose: Allow specific updates on a collection of objects according to the particular type of each updated object.
+
+-Chapter VI
+	[]Observer
+	-Description
+	{}Purpose: Defines a one-to-many dependency between objects so that when one object changes state, 
+	all of its dependents are notified and updated automatically.
+	
+-Chapter VII
+	[]Command
+	-Description
+	{}Purpose: To control the calls to a particular component, modeling each request as an object. Allow operations can be undone, 
+	queued or registered.
+	
+-Chapater VIII
+	[]Flyweight
+	-Description
+	{}Purpose: Share efficiently, objects that are used in large quantities.
+
+-Chapter IX
+	[]Multion
+	-Description
+	{}Purpose: Allow the creation of a limited amount of instances of a particular class and provide a way to retrieve them.
+	
+-Chapter X
+	[]Object Pool
+	-Description
+	{}Purpose: To allow the reuse of objects.
+
+-Chapter XI
+	[]Null Object
+	-Description
+	{}Purpose: Avoid null references by providing a default object.
+
+-Chapter XII
+	[]Active Object
+	-Description
+	{}Purpose: The active object design pattern decouples method execution from method invocation for objects that each reside 
+	in their own thread of control. The goal is to introduce concurrency, by using asynchronous method invocation
+	and a scheduler for handling requests.
+	
+-Chapter XIII
+	[]Using Singleton and Memento
+	-Description
+	{}Purpose: Create a simple text processor using Sigleton and Menento parttners.
+
+-Chapter XIV
+	[]Using Singleton, Memento and Flyweight
+	-Description
+	{}Purpose: Create a simple presentation application using Sigleton and Menento parttners.
+	
+-Chapter XV
+	[]Using Observer and Visitor 
+	-Description
+	{}Purpose: Create a simple example based on a Stockexchange
+	
+-Bibliografy
+    []Books
+        -SCJA
+		-Java™ How to Program, Sixth Edition
+		-SCJP Sun Certified Programmer for Java 5 Study Guide (Exam 310-055)
+    
+    []Links
+        http://en.wikipedia.org/wiki/Concurrency_pattern
+        http://en.wikipedia.org/wiki/Design_Patterns
+        http://en.wikipedia.org/wiki/Behavioral_pattern
+        http://en.wikipedia.org/wiki/Creational_pattern
+        http://en.wikipedia.org/wiki/Structural_pattern
+	http://sourcemaking.com/

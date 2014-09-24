@@ -1,0 +1,5 @@
+Purpose: To control the calls to a particular component, modeling each request
+as an object. Allow operations can be undone, queued or registered.
+
+Objetivo: Controlar as chamadas a um determinado componente, modelando cada requisição
+como um objeto. Permitir que as operações possam ser desfeitas, enfileiradas ou registradas.

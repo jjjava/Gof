@@ -1,0 +1,5 @@
+Purpose: Allow the creation of a limited amount of instances of a particular class and
+provide a way to retrieve them.
+
+Objetivo: Permitir a criação de uma quantidade limitada de instâncias de determinada classe e
+fornecer um modo para recuperá-las.
