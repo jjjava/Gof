@@ -1,5 +1,8 @@
 package br.com.schumaker.gof.structural.proxy;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  * @author Hudson Schumaker
  * @version 1.0.0
@@ -16,6 +19,11 @@ public class RealTexture implements Texture {
 
     private void loadImageFromDisk() {
         System.out.println("Loading: " + textureFileName);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(RealTexture.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     @Override
