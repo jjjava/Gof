@@ -1,0 +1,5 @@
+Purpose: Encapsulating the choice of concrete classes to be used in the creation of objects from 
+different families.
+
+Objetivo: Encapsular a escolha das classes concretas a serem utilizadas na criação dos objetos de 
+diversas famílias.

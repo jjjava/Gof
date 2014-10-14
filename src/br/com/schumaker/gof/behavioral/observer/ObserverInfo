@@ -1,0 +1,5 @@
+Purpose: Defines a one-to-many dependency between objects so that when one object changes state, 
+all of its dependents are notified and updated automatically.
+
+Objetivo: Define uma dependência um-para-muitos entre objetos, de modo que quando um objeto muda de estado, 
+todos os seus dependentes são notificados e atualizados automaticamente.

@@ -1,0 +1,5 @@
+Purpose: Allow the creation of a single instance of a class and provide a way to
+retrieve it.
+
+Objetivo: Permitir a criação de uma única instância de uma classe e fornecer um modo para
+recuperá-la.

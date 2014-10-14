@@ -1,0 +1,15 @@
+Chapter IV
+
+Nesse capitulos vamos ver o padrão de projeto Memento.
+
+Memento:
+//
+
+Objetivo: 
+Fornece a capacidade de restaurar um objeto ao seu estado anterior (desfazer via rollback).
+
+UML:
+//diagrama
+
+Codigo:
+Vamos ver o codigo de...

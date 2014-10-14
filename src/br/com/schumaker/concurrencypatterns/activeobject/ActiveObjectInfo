@@ -1,0 +1,7 @@
+Purpose: The active object design pattern decouples method execution from method invocation for objects
+that each reside in their own thread of control. The goal is to introduce concurrency, by using 
+asynchronous method invocation and a scheduler for handling requests.
+
+Objetivo: O padrão de projeto active object desacopla a execução do método de invocação de método para objetos
+que cada residem em sua própria thread de controle. O objetivo é introduzir concorrência, usando 
+o método assíncrono invocação e um agendador para o tratamento dos pedidos

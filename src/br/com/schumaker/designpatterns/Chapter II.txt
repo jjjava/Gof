@@ -1,0 +1,45 @@
+Chapter II
+
+Neste capítulo vamos ver o nosso primeiro padrão de projeto o Singleton.
+
+Singleton:
+Em engenharia de software, o padrão singleton é um padrão de projeto que restringe a instanciação de uma classe
+para um objeto. Isso é útil quando exatamente um objeto é necessário para coordenar as ações de todo o sistema.
+Encapsulamento "inicialização just-in-time" ou "inicialização no primeiro uso". 
+
+Objetivo: 
+Permitir a criação de uma única instância de uma classe e fornecer uma maneira de recuperá-lo.
+
+UML:
+//diagrama
+
+Codigo:
+Vamos ver o codigo de algumas implementações Eager e Lazy.
+
+Eager Singleton primeira implementação:
+
+//code
+
+Comentario:
+//
+
+Eager Simgleton segunda implementação
+	
+//code
+
+Comentario:
+//Classe privada Holder...
+
+Lazy Singleton primeira implementação:
+
+//code
+
+Comentario:
+//Metodo getInstance sincronizado...
+
+Lazy Singleton segunda implementação:
+
+//code
+
+Comentario:
+//Dupla trava de verificação...

@@ -1,0 +1,23 @@
+Capitulo X
+
+
+Object Poll:
+
+Object Poll pode oferecer um ganho significativo de performance.É mais eficaz em situações em que o custo 
+de inicializar uma instância de classe é alta, a taxa de instanciação de uma classe é alta e 
+o número de instâncias de uso a qualquer momento é baixo.
+
+Objetivo: Possibilitar o reaproveitamento de objetos.
+
+UML:
+//diagrama
+
+Codigo:
+// descrição
+
+nome
+
+//code
+
+Comentario:
+//
