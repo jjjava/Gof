@@ -3,6 +3,7 @@ package br.com.schumaker.gof.behavioral.mediator;
 /**
  *
  * @author Hudson Schumaker
+ * updated 
  */
 public class Client {
 

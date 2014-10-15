@@ -11,6 +11,7 @@ public class Mediator {
 
     public synchronized void storeMessage(int num) {
         // no room for another message
+        //espaço para mais uma mensagem
         while (slotFull == true) {
             try {
                 wait();
