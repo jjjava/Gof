@@ -1,4 +1,4 @@
-package br.com.schumaker.gof.structural.proxy.example1;
+package br.com.schumaker.gof.structural.proxy.virtualproxy.example2;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
