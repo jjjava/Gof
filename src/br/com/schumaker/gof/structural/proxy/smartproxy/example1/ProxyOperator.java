@@ -7,7 +7,7 @@ package br.com.schumaker.gof.structural.proxy.smartproxy.example1;
 public class ProxyOperator implements Operator {
 
     private static Operator op = new RealOperator();
-    private static final Integer MAX_CONCURRENT_OP = 3;
+    private static final Integer MAX_CONCURRENT_OP = 10;
     private static Integer count = 0;
 
     @Override
