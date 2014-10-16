@@ -1,7 +1,6 @@
 package br.com.schumaker.nogof.structural.mvc.example1.model;
 
 import br.com.schumaker.nogof.structural.mvc.example1.controller.FuncionarioController;
-import br.com.schumaker.nogof.structural.mvc.example1.model.AbstractModel;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
