@@ -1,8 +1,5 @@
 package br.com.schumaker.nogof.behavioral.nullobject.example3;
 
-import br.com.schumaker.nogof.behavioral.nullobject.example2.*;
-import java.lang.reflect.InvocationTargetException;
-
 /**
  *
  * @author Hudson Schumaker
@@ -11,17 +8,24 @@ import java.lang.reflect.InvocationTargetException;
  */
 public class FactorySort {
 
+    public static final String BUBBLESORT = "BubbleSort";
+    public static final String QUICKSORT = "QuickSort";
+    private static final FactorySort INSTANCE = new FactorySort();
+
+    private FactorySort() {
+    }
+
+    public static FactorySort getInstance() {
+        return INSTANCE;
+    }
+
     public SortList getSort(String sortName) {
-        try {
-            if (Class.forName(sortName) != null) {
-                return  (SortList) Class.forName(sortName).getConstructor(String.class).newInstance();
-            } else {
-                return new NullSort();
-            }
-        } catch (ClassNotFoundException | NoSuchMethodException | SecurityException | InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
-            System.err.println(e);
-            System.out.println("Retornando um NullSort object");
-            return new NullSort();
+        if (sortName.equalsIgnoreCase(BUBBLESORT)) {
+            return (SortList) new HsBubbleSort();
+        } else if (sortName.equalsIgnoreCase(QUICKSORT)) {
+            return (SortList) new HsQuickSort();
+        } else {
+            return (SortList) new NullSort();
         }
     }
 }

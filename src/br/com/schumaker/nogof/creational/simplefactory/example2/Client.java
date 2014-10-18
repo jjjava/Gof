@@ -12,7 +12,7 @@ public class Client {
 
     public static void main(String args[]) {
         Calendar cal = Calendar.getInstance();
-        List<Bread> breadList = new ArrayList<Bread>();
+        List<Bread> breadList = new ArrayList<>();
         for (int i = 0; i < 7; i++) {
             breadList.add(BreadFactory.produceBread(cal));
             cal.add(Calendar.DATE, 1);
