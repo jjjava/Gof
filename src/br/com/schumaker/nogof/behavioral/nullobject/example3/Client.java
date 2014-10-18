@@ -16,8 +16,8 @@ public class Client {
         List<Integer> list = new ArrayList<>();
         Random rnd = new Random();
 
-        for (int k = 0; k < 50; k++) {
-            list.add(rnd.nextInt(20));
+        for (int k = 0; k < 10000000; k++) {
+            list.add(rnd.nextInt());
         }
 
         SortList ordernar = new HsQuickSort();

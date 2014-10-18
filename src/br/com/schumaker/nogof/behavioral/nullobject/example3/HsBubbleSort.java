@@ -1,6 +1,5 @@
 package br.com.schumaker.nogof.behavioral.nullobject.example3;
 
-import br.com.schumaker.nogof.behavioral.nullobject.example2.*;
 import java.util.List;
 
 /**
@@ -19,7 +18,7 @@ public class HsBubbleSort implements SortList {
         bubbleSort(list);
     }
 
-    public static void bubbleSort(List<Integer> list) {
+    private void bubbleSort(List<Integer> list) {
         boolean sorted = false;
 
         for (int top = list.size() - 1; top > 0 && !sorted; top--) {
