@@ -27,7 +27,6 @@ public class QuickSort implements SortList {
                 fim = ele;
             }
         }
-
         quicksort(list, ini, fim);
     }
 
