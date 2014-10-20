@@ -28,14 +28,14 @@ public class Client {
         SortList ordernar = factory.getSort("MergeSort");
         ordernar.sort(list);
 
-        ordernar = factory.getSort("br.com.schumaker.nogof.behavioral.nullobject.example2.QuickSort");
+        ordernar = factory.getSort("br.com.schumaker.nogof.behavioral.nullobject.example2.BubbleSort");
         ordernar.sort(list);
 
-        ordernar = factory.getSort("QuickSort");
-        ordernar.sort(list);
-
-        ordernar = new QuickSort();
-        ordernar.sort(list);
+//        ordernar = factory.getSort("QuickSort");
+//        ordernar.sort(list);
+//
+//        ordernar = new QuickSort();
+//        ordernar.sort(list);
         
         
         for(int t :list){

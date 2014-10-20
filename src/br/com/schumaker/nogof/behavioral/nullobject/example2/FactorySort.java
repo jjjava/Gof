@@ -13,7 +13,7 @@ public class FactorySort {
     public SortList getSort(String sortName) {
         try {
             if (Class.forName(sortName) != null) {
-                return  (SortList) Class.forName(sortName).getConstructor(String.class).newInstance();
+                return  (SortList) Class.forName(sortName).getConstructor().newInstance();
             } else {
                 return new NullSort();
             }
