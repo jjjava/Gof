@@ -1,6 +1,5 @@
 package br.com.schumaker.nogof.behavioral.nullobject.example3;
 
-import br.com.schumaker.nogof.behavioral.nullobject.example2.*;
 import java.util.List;
 
 /**
