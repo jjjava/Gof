@@ -26,7 +26,6 @@ public class Client {
         }
 
         String resultado = String.valueOf(contexto.getOutput());
-
         System.out.println(resultado);
     }
 }
