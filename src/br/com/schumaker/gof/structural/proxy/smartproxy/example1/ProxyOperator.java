@@ -1,5 +1,7 @@
 package br.com.schumaker.gof.structural.proxy.smartproxy.example1;
 
+import java.util.Objects;
+
 /**
  *
  * @author Hudson Schumaker
@@ -13,7 +15,7 @@ public class ProxyOperator implements Operator {
     @Override
     public void doOperation() {
         synchronized (MAX_CONCURRENT_OP) {
-            if (count == MAX_CONCURRENT_OP) {
+            if (Objects.equals(count, MAX_CONCURRENT_OP)) {
                 System.out.println("At most " + MAX_CONCURRENT_OP + " operator(s) at a time, please wait.");
                 try {
                     MAX_CONCURRENT_OP.wait();
