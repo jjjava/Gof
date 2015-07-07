@@ -2,7 +2,9 @@ package br.com.schumaker.gof.behavioral.strategy.example1;
 
 /**
  *
- * @author hudson schumaker
+ * @author Hudson Schumaker
+ * @version 1.0.0
+ * @since 06/07/2015
  */
 public class Quack implements QuackBehavior{
 
