@@ -1,0 +1,7 @@
+Purpose:Used to reduce the overhead of acquiring a lock by first testing the locking criterion (the "lock hint")
+without actually acquiring the lock. Only if the locking criterion check indicates that locking is required 
+does the actual locking logic proceed.
+
+Objetivo:Utilizado para reduzir a sobrecarga de aquisição de um bloqueio por testar o primeiro critério 
+de bloqueio ("dica de bloqueio") sem efectivamente adquirir o bloqueio. Apenas se o critério de 
+verificação de bloqueio indica que o bloqueio é necessário que a lógica de bloqueio real continuar.
