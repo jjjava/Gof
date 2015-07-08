@@ -1,3 +1,7 @@
 Purpose: Only executes an action on an object when the object is in a particular state. 
 For example, if an object reads ZIP files and a calling method invokes a get method on the 
 object when the ZIP file is not open, the object would "balk" at the request.
+
+Objetivo: Só executa uma ação no objeto se e somente se ele estiver em um determinado estado.
+Por exemplo, se um objeto lê arquivos ZIP e a chamada de metódo no objeto ve que o arquivo não 
+está aberto, o objeto vai "balk" (barrar) a requisição.
