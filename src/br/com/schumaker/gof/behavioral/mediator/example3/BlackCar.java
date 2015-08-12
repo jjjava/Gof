@@ -9,18 +9,17 @@ public class BlackCar {
 
     private CentralUber central;
     private int id;
-    private static int k=0;
+    private static int k = 1;
 
     public BlackCar(CentralUber central) {
         this.central = central;
         this.id = BlackCar.k++;
     }
-    
-    public void atende(){
-        try{
-            Thread.sleep((long) (Math.random()*7000));
-        }
-        catch(InterruptedException e){
+
+    public void atende() {
+        try {
+            Thread.sleep((long) (Math.random() * 7000));
+        } catch (InterruptedException e) {
             System.err.println(e);
         }
         this.central.adicionaBlackCarDisponivel(this);
@@ -28,5 +27,5 @@ public class BlackCar {
 
     public int getId() {
         return id;
-    }    
+    }
 }
