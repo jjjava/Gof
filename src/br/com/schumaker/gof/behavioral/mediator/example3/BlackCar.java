@@ -18,7 +18,7 @@ public class BlackCar {
     
     public void atende(){
         try{
-            Thread.sleep((long) (Math.random()*3000));
+            Thread.sleep((long) (Math.random()*7000));
         }
         catch(InterruptedException e){
             System.err.println(e);

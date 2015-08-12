@@ -23,6 +23,9 @@ public class Cliente {
         BlackCar b2 = new BlackCar(centralUber);
         centralUber.adicionaBlackCarDisponivel(b2);
         
+        BlackCar b3 = new BlackCar(centralUber);
+        centralUber.adicionaBlackCarDisponivel(b3);
+        
         new Thread(p1).start();
         new Thread(p2).start();
         new Thread(p3).start();

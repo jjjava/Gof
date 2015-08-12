@@ -20,9 +20,9 @@ public class CentralUber {
     }
 
     public void solicitaBlackCar(Passageiro passageiro) {
-        BlackCar taxi = this.aguardaBlackCar(passageiro);
-        System.out.println("BlackCar " + taxi.getId() + " levando " + passageiro.getNome());
-        taxi.atende();
+        BlackCar blackCar = this.aguardaBlackCar(passageiro);
+        System.out.println("BlackCar " + blackCar.getId() + " levando " + passageiro.getNome());
+        blackCar.atende();
     }
 
     private synchronized BlackCar aguardaBlackCar(Passageiro passageiro) {
