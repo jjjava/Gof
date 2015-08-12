@@ -25,7 +25,7 @@ public class CentralUber {
         taxi.atende();
     }
 
-    private BlackCar aguardaBlackCar(Passageiro passageiro) {
+    private synchronized BlackCar aguardaBlackCar(Passageiro passageiro) {
         this.passageirosEmEspera.add(passageiro);
         synchronized (this) {
             while (this.blackCarLivres.isEmpty()

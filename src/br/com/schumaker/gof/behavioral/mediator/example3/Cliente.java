@@ -13,6 +13,9 @@ public class Cliente {
         Passageiro p2 = new Passageiro("Hugo Schumaker", centralUber);
         Passageiro p3 = new Passageiro("Humberto Schumaker", centralUber);
         Passageiro p4 = new Passageiro("Gabriel Schumaker", centralUber);
+        Passageiro p5 = new Passageiro("Nikolas Schumaker", centralUber);
+        Passageiro p6 = new Passageiro("Saulo Schumaker", centralUber);
+        Passageiro p7 = new Passageiro("Elizabeth Schumaker", centralUber);
         
         BlackCar b1 = new BlackCar(centralUber);
         centralUber.adicionaBlackCarDisponivel(b1);
@@ -24,6 +27,9 @@ public class Cliente {
         new Thread(p2).start();
         new Thread(p3).start();
         new Thread(p4).start();
+        new Thread(p5).start();
+        new Thread(p6).start();
+        new Thread(p7).start();
         
     }
 }
